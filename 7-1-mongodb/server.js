@@ -240,7 +240,7 @@ async function runAll() {
   await readStudents();
   await updateStudent();
   await deleteStudent();
-  await readStudents(); // final check
+  await readStudents(); 
 }
 
 runAll();
